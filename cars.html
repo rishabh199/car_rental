@@ -3,6 +3,14 @@
     <head>
         <title>Car Rental </title>
         <link href="pstyles.css" rel="stylesheet" type="text/css" />
+        <style>
+			form {
+				text-align: center;
+                font-size: medium;
+				
+				
+			}
+		</style>
      
     </head>
     <body>
@@ -21,28 +29,26 @@
   </div>
 	
 <div class="leftContent">
-    <b><form action="registercar.html">
-	<h1> ADD CAR </h1>
-    License No: <input type="text" name="lno"/><br><br>
-    Model: <input type="text" name="model"/><br><br>
-    Year : <input type="text" name="year"/><br><br>
+    <b><form align="center" action="registercar.html" method="GET">
+	<h1><center> ADD CAR </center> </h1>
+    License No: <br><input type="text" name="lno"/><br><br>
+    Model: <br><input type="text" name="model"/><br><br>
+    Year : <br><input type="text" name="year"/><br><br>
     Car type: <select name = "Cartype">
-    <option>Compact</option>
-    <option>Medium</option>
-    <option>Large</option>
-    <option>SUV</option>
-    <option>Van</option>
-    <option>Truck</option>
+        <option>Hatchback</option>
+        <option>Sedan</option>
+        <option>SUV</option>
+        <option>LUXURY</option>
     </select><br><br>
-    Car Owner: <select name = "Carown">
+    Car Owner: <br><select name = "Carown">
     <option>Individual</option>
     <option>Company</option>
     </select><br><br>
-    Rate: <input type="text" name="udrate"/><br><br>
-    <h2>Enter Owner Details : </h2><br>
-    Unique ID: <input type="text" name="uid"/><br><br>
-    Name: <input type="text" name="oname"/><br><br>
-    City : <input type="text" name="city"/><br><br>
+    Rate: <br><input type="text" name="udrate"/><br><br>
+    <h2><center>Enter Owner Details : </center></h2><br>
+    Unique ID: <br><input type="text" name="uid"/><br><br>
+    Name: <br><input type="text" name="oname"/><br><br>
+    City : <br><input type="text" name="city"/><br><br>
     <input type="submit" name="submit" value="Register">
     </form></b>	
     </div>	
