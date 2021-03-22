@@ -39,11 +39,31 @@ a:hover {
 	color:#707070;
 }
 .menu {
-	background:url(images/menuBackground.png) repeat-x left top;
+	background:url(images/menuBackground.png);
 	height:103px;
 	text-align:center;
 	margin-top:265px;
 }
+.carGroup-bg-image{
+	/* background-image:url(images/bgback.jpg);*/
+	list-style-image: url(images/bgback.jpg); 
+	background-size: contain;
+    height: 595px;
+    background-repeat: no-repeat;
+	color: white;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+	
+}
+.items {
+	list-style-type: style 0;
+	box-sizing: inherit;
+	text-align:initial;
+	padding: 0 60px;
+}
+
 .menu ul {
 	margin:0;
 	padding-top:32px;
@@ -77,9 +97,12 @@ a:hover {
 	padding:40px;
 }
 .leftContent {
+	
 	float:left;
 	width:400px;
 	background:url(images/leftContent.png) repeat-y left top;
+	padding:50%;
+	
 }
 
 #footer {
